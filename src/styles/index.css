@@ -1,0 +1,78 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+.centralDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.divBg{
+    height: 360px;
+    width: 220px;
+    background: linear-gradient(45deg, purple, rgb(0, 200, 255));
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.passcode{
+    background-color: #1a1c24;
+    height: calc(100% - 2px);
+    width: calc(100% - 2px);
+    border-radius: 14px;
+}
+
+/*---------------------------------------*/
+form{
+    display: flex;
+    justify-content: center;
+}
+input{
+    text-align: center;
+}
+input::placeholder {
+    text-align: center;
+}
+
+.output{
+    height: 40px;
+    width: 160px;
+    margin: 20px;
+    padding: 6px;
+    border-radius: 7px;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #1a1c24;
+}
+
+.numDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .number {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: border 0.5 ease-in-out;
+  }
+
+  .number:hover{
+   border: 2px solid #fff;
+  }
+  
+
+
+  
+  
