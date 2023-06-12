@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/passcode/static/js/main.8b86dff9.js",
+    "main.css": "/passcode/static/css/main.8d340a41.css",
+    "main.js": "/passcode/static/js/main.6754b18b.js",
     "index.html": "/passcode/index.html",
-    "main.8b86dff9.js.map": "/passcode/static/js/main.8b86dff9.js.map"
+    "main.8d340a41.css.map": "/passcode/static/css/main.8d340a41.css.map",
+    "main.6754b18b.js.map": "/passcode/static/js/main.6754b18b.js.map"
   },
   "entrypoints": [
-    "static/js/main.8b86dff9.js"
+    "static/css/main.8d340a41.css",
+    "static/js/main.6754b18b.js"
   ]
 }
